@@ -1,0 +1,21 @@
+@media (min-width: 992px){
+    #header.split-menu #logo a.standard-logo {
+        padding:10px;
+    }
+}
+@media (max-width: 992px){
+    #header.split-menu #logo a.standard-logo {
+        padding:10px;
+    }
+}
+/* Change size of logo*/
+#header, #header-wrap, #logo img{
+    height: 60px;
+}
+/* Add margin-top 20px */
+.mgt20{
+    margin-top:20px;
+}
+.content-wrap{
+    padding-bottom:0;
+}
