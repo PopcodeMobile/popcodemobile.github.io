@@ -12,3 +12,21 @@ Copyright (c) 2014 Daniel Eden
     height: 60px;
     padding-bottom: 20px;
 }
+
+@media screen and (max-width: 991px) {
+    a.retina-logo,
+    a.standard-logo{
+        padding-top: 20px;
+    }
+    #logo a img{
+        margin-top: 10px;
+    }
+
+}
+@media screen and (max-width: 1200px) {
+    #header-wrap .container{
+        margin-left:2.5%;
+        margin-right:2.5%;
+        width: 95%;
+    }
+}
