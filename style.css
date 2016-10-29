@@ -13542,3 +13542,16 @@ ul.flex-direction-nav li a,
 ul.flex-direction-nav li a:hover{
 	background: none !important;
 }
+
+.flex-next i,
+.flex-prev i{
+    opacity: 0.5;
+    color: #1ABC9C !important
+}
+
+.flex-next:hover i,
+.flex-prev:hover i{
+    opacity: 1 !important;
+    color: #1ABC9C !important;
+    transition: 0.3s;
+}
