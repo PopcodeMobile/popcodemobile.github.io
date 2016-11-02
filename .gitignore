@@ -1,0 +1,50 @@
+.DS_Store
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+*.moved-aside
+DerivedData
+.idea/
+*.lock
+*.ipa
+*.dSYM.zip
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+build/
+.gradle/
+*.apt_generated
+local.properties
+.settings/
+proguard-project.txt
+add_package.sh
+.metadata/
+*.itmsp
+*.ruby-version
+fastlane/Preview.html
+Carthage
+Banese/LibGas
+# fastlane specific
+fastlane/report.xml
+
+# deliver temporary files
+fastlane/Preview.html
+
+# snapshot generated screenshots
+fastlane/screenshots
+
+# scan temporary files
+fastlane/test_output
