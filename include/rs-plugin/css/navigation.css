@@ -1636,8 +1636,8 @@ website:    http://www.themepunch.com
 .hermes .tp-bullet {
     overflow:hidden;
     border-radius:50%;
-    width:16px;
-    height:16px;
+    width:10px;
+    height:10px;
     background-color: rgba(0, 0, 0, 0);
     box-shadow: inset 0 0 0 2px #FFF;
     -webkit-transition: background 0.3s ease;
