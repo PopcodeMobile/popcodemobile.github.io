@@ -109,7 +109,7 @@
 
             <!-- START REVOLUTION SLIDER 5.2.0 fullscreen mode -->
             <div id="rev_slider_429_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.2.0">
-                <ul>	<!-- SLIDE  -->
+                <ul>    <!-- SLIDE  -->
                     <li data-index="rs-1491" class="dark" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="1000"  data-thumb="http://server.local/revslider/wp-content/uploads/"  data-rotate="0"  data-saveperformance="off"  data-title="Solution" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
                         <img src="include/rs-plugin/demos/assets/images/dummy.png" style='background-color:#2aa2b0' alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
@@ -1016,7 +1016,7 @@
 
                     <!-- LAYER NR. 4 -->
                     <a class="tp-caption SleekLanding-Social   tp-resizeme tp-static-layer"
-                       href="https://www.facebook.com/popcode" target="_blank"			 id="slider-429-layer-4"
+                       href="https://www.facebook.com/popcode" target="_blank"           id="slider-429-layer-4"
                        data-x="['right','right','center','center']" data-hoffset="['105','105','-40','-40']"
                        data-y="['bottom','bottom','bottom','bottom']" data-voffset="['27','27','90','90']"
                        data-width="30"
@@ -1041,7 +1041,7 @@
 
                     <!-- LAYER NR. 5 -->
                     <a class="tp-caption SleekLanding-Social   tp-resizeme tp-static-layer"
-                       href="https://twitter.com/popcodemobile" target="_blank"			 id="slider-429-layer-5"
+                       href="https://twitter.com/popcodemobile" target="_blank"          id="slider-429-layer-5"
                        data-x="['right','right','center','center']" data-hoffset="['65','65','0','0']"
                        data-y="['bottom','bottom','bottom','bottom']" data-voffset="['27','27','90','90']"
                        data-width="30"
@@ -1086,7 +1086,8 @@
                          data-endslide="2"
 
                          style="z-index: 11; white-space: nowrap; font-size: 30px; line-height: 30px; font-weight: 400;text-transform:left;cursor:pointer;">
-                        <div class="rs-looped rs-slideloop"  data-easing="Power2.easeInOut" data-speed="1" data-xs="0" data-xe="0" data-ys="-5" data-ye="5"><i class="icon-chevron-down"></i> </div></div>
+                        
+                        </div>
 
                     <!-- LAYER NR. 8 -->
                     <div class="tp-caption   tp-resizeme tp-static-layer"
@@ -1108,7 +1109,7 @@
 
                          style="z-index: 12;text-transform:left;"><img src="include/rs-plugin/demos/assets/images/dummy.png" alt="" width="350" height="650" data-ww="['350px','350px','350','350px']" data-hh="['650px','650px','650','650px']" data-lazyload="include/rs-plugin/demos/assets/images/iphone_cutout.png" data-no-retina> </div>
                 </div>
-                <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>	</div>
+                <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div> </div>
         </div><!-- END REVOLUTION SLIDER -->
 
     </div><!-- #content end -->
@@ -1510,12 +1511,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
                 jsFileLocation:"include/rs-plugin/js/",
                 sliderLayout:"fullscreen",
                 dottedOverlay:"none",
-                delay:9000,
+                delay:2000,
                 navigation: {
                     keyboardNavigation:"on",
                     keyboard_direction: "vertical",
-                    mouseScrollNavigation:"off",
-                    mouseScrollReverse:"default",
+                    mouseScrollNavigation:"on",
+                    mouseScrollReverse:"off",
                     onHoverStop:"off",
                     touch:{
                         touchenabled:"on",
@@ -1549,7 +1550,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
                 spinner:"spinner2",
                 stopLoop:"on",
                 stopAfterLoops:0,
-                stopAtSlide:1,
+                stopAtSlide:3,
                 shuffle:"off",
                 autoHeight:"off",
                 fullScreenAutoWidth:"off",
@@ -1577,7 +1578,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
         revapi429.bind("revolution.slide.onchange",function (e,data) {
             SEMICOLON.slider.revolutionSliderMenu();
         });
-    });	/*ready*/
+    }); /*ready*/
 
 </script>
 
