@@ -1,0 +1,76 @@
+.demos-filter {
+            margin: 0;
+            text-align: right;
+        }
+
+        .demos-filter li {
+            list-style: none;
+            margin: 10px 0px;
+        }
+
+        .demos-filter li a {
+            display: block;
+            border: 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #444;
+        }
+
+        .demos-filter li a:hover,
+        .demos-filter li.activeFilter a { color: #1ABC9C; }
+
+        @media (max-width: 991px) {
+            .demos-filter { text-align: center; }
+
+            .demos-filter li {
+                float: left;
+                width: 33.3%;
+                padding: 0 20px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .demos-filter li { width: 50%; }
+        }
+
+        .revo-slider-emphasis-text {
+            font-size: 64px;
+            font-weight: 700;
+            letter-spacing: -1px;
+            font-family: 'Raleway', sans-serif;
+            padding: 15px 20px;
+            border-top: 2px solid #FFF;
+            border-bottom: 2px solid #FFF;
+        }
+
+        .revo-slider-desc-text {
+            font-size: 20px;
+            font-family: 'Lato', sans-serif;
+            width: 650px;
+            text-align: center;
+            line-height: 1.5;
+        }
+
+        .revo-slider-caps-text {
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: 3px;
+            font-family: 'Raleway', sans-serif;
+        }
+        .tp-video-play-button { display: none !important; }
+
+        .tp-caption { white-space: nowrap; }
+
+        .tp-caption.SleekLanding-BottomText,
+        .SleekLanding-BottomText,
+        .social-text,
+        .SleekLanding-Social { color: #FFF; }
+
+        /* data-index number of your Slide */
+        [data-slideactive="rs-1493"] .tp-caption.SleekLanding-BottomText,
+        [data-slideactive="rs-1493"] .SleekLanding-BottomText,
+        [data-slideactive="rs-1493"] .social-text,
+        [data-slideactive="rs-1493"] .SleekLanding-Social { color: #444 !important; }
+
+        [data-slideactive="rs-1493"] .hermes .tp-bullet { box-shadow: inset 0 0 0 2px #333; }
+        [data-slideactive="rs-1493"] .hermes .tp-bullet:after { background-color: #333 }

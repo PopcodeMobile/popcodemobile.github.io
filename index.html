@@ -1,132 +1,56 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="pt-br">
 <head>
-
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="Popcode Mobile Solutions" />
-    <meta name="theme-color" content="#4abce1" />
+    <!-- Metatags
+    ============================================= -->    
+    <meta http-equiv="content-type"     content="text/html; charset=utf-8" />
+    <meta name="author"                 content="Popcode Mobile Solutions" />
+    <meta name="theme-color"            content="#4abce1" />
+    <meta name="viewport"               content="width=device-width, initial-scale=1" />
 
     <!-- OpenGraph
     ============================================= -->
-    <meta property="og:locale" content="pt_BR">
-    <meta property="og:url" content="http://www.Popcode.com.br">     
-    <meta property="og:title" content="Popcode Mobile Solutions">
-    <meta property="og:site_name" content="Popcode Mobile Solutions">
-    <meta property="og:description" content="Minha boa descrição para intrigar os usuários.">
-    <meta property="og:image" content="Popcodemobile.gitlab.io/imagem.jpg">
-    <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:image:width" content="800">
-    <meta property="og:image:height" content="600">
-    <meta property="og:type" content="website">
+    <meta property="og:locale"          content="pt_BR">
+    <meta property="og:url"             content="http://www.Popcode.com.br">     
+    <meta property="og:title"           content="Popcode Mobile Solutions">
+    <meta property="og:site_name"       content="Popcode Mobile Solutions">
+    <meta property="og:description"     content="Minha boa descrição para intrigar os usuários.">
+    <meta property="og:image"           content="Popcodemobile.gitlab.io/imagem.jpg">
+    <meta property="og:image:type"      content="image/jpeg">
+    <meta property="og:image:width"     content="800">
+    <meta property="og:image:height"    content="600">
+    <meta property="og:type"            content="website">
+    
 
     <!-- Stylesheets
     ============================================= -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto%3A400%2C100%2C300%2C500%2C700%2C900" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-    <link rel="stylesheet" href="style.css" type="text/css" />
-    <link rel="stylesheet" href="css/dark.css" type="text/css" />
-    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-    <link rel="stylesheet" href="css/animate.css" type="text/css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700"                type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900"           type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%3A400%2C100%2C300%2C500%2C700%2C900"    type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.css"                                                                     type="text/css" />
+    <link rel="stylesheet" href="style.css"                                                                             type="text/css" />
+    <link rel="stylesheet" href="css/dark.css"                                                                          type="text/css" />
+    <link rel="stylesheet" href="css/font-icons.css"                                                                    type="text/css" />
+    <link rel="stylesheet" href="css/animate.css"                                                                       type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css"                                                                type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css"                                                                    type="text/css" />
 
-    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lt IE 9]>
     <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <![endif]-->
 
     <!-- SLIDER REVOLUTION 5.x CSS SETTINGS -->
-    <link rel="stylesheet" type="text/css" href="include/rs-plugin/css/settings.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="include/rs-plugin/css/layers.css">
-    <link rel="stylesheet" type="text/css" href="include/rs-plugin/css/navigation.css">
+    <link rel="stylesheet" href="include/rs-plugin/css/settings.css" media="screen" />
+    <link rel="stylesheet" href="include/rs-plugin/css/layers.css">
+    <link rel="stylesheet" href="include/rs-plugin/css/navigation.css">
+
+    <!-- CUSTOMIZE -->
+    <link rel="stylesheet" href="customize.css">
     
 
     <!-- Document Title
     ============================================= -->
     <title>Popcode Mobile Solutions</title>
-
-    <style>
-
-        .demos-filter {
-            margin: 0;
-            text-align: right;
-        }
-
-        .demos-filter li {
-            list-style: none;
-            margin: 10px 0px;
-        }
-
-        .demos-filter li a {
-            display: block;
-            border: 0;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            color: #444;
-        }
-
-        .demos-filter li a:hover,
-        .demos-filter li.activeFilter a { color: #1ABC9C; }
-
-        @media (max-width: 991px) {
-            .demos-filter { text-align: center; }
-
-            .demos-filter li {
-                float: left;
-                width: 33.3%;
-                padding: 0 20px;
-            }
-        }
-
-        @media (max-width: 767px) {
-            .demos-filter li { width: 50%; }
-        }
-
-        .revo-slider-emphasis-text {
-            font-size: 64px;
-            font-weight: 700;
-            letter-spacing: -1px;
-            font-family: 'Raleway', sans-serif;
-            padding: 15px 20px;
-            border-top: 2px solid #FFF;
-            border-bottom: 2px solid #FFF;
-        }
-
-        .revo-slider-desc-text {
-            font-size: 20px;
-            font-family: 'Lato', sans-serif;
-            width: 650px;
-            text-align: center;
-            line-height: 1.5;
-        }
-
-        .revo-slider-caps-text {
-            font-size: 16px;
-            font-weight: 400;
-            letter-spacing: 3px;
-            font-family: 'Raleway', sans-serif;
-        }
-        .tp-video-play-button { display: none !important; }
-
-        .tp-caption { white-space: nowrap; }
-
-        .tp-caption.SleekLanding-BottomText,
-        .SleekLanding-BottomText,
-        .social-text,
-        .SleekLanding-Social { color: #FFF; }
-
-        /* data-index number of your Slide */
-        [data-slideactive="rs-1493"] .tp-caption.SleekLanding-BottomText,
-        [data-slideactive="rs-1493"] .SleekLanding-BottomText,
-        [data-slideactive="rs-1493"] .social-text,
-        [data-slideactive="rs-1493"] .SleekLanding-Social { color: #444 !important; }
-
-        [data-slideactive="rs-1493"] .hermes .tp-bullet { box-shadow: inset 0 0 0 2px #333; }
-        [data-slideactive="rs-1493"] .hermes .tp-bullet:after { background-color: #333 }
-
-    </style>
 
 </head>
 
@@ -149,8 +73,8 @@
                     <!-- Logo
                     ============================================= -->
                     <div id="logo">
-                        <a href="index.html" class="standard-logo" data-dark-logo="images/__logo/logo-dark.png"><img src="images/__logo/logo.png" alt="Popcode Mobile Solutions"></a>
-                        <a href="index.html" class="retina-logo" data-dark-logo="images/__logo/logo-dark@2x.png"><img src="images/__logo/logo@2x.png" alt="Popcode Mobile Solutions"></a>
+                        <a href="#" class="standard-logo" data-dark-logo="images/__logo/logo-dark.png"><img src="images/__logo/logo.png" alt="Popcode Mobile Solutions"></a>
+                        <a href="#" class="retina-logo" data-dark-logo="images/__logo/logo-dark@2x.png"><img src="images/__logo/logo@2x.png" alt="Popcode Mobile Solutions"></a>
                     </div><!-- #logo end -->
 
                     <!-- Primary Navigation
@@ -1590,7 +1514,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
                 navigation: {
                     keyboardNavigation:"on",
                     keyboard_direction: "vertical",
-                    mouseScrollNavigation:"carousel",
+                    mouseScrollNavigation:"off",
                     mouseScrollReverse:"default",
                     onHoverStop:"off",
                     touch:{
