@@ -678,6 +678,7 @@ html[xmlns] .slider-wrap {display: block;}
 
 .flex-viewport {
 	max-height: 2000px;
+	min-height: 120px;
 	-webkit-transition: all 1s ease;
 	-o-transition: all 1s ease;
 	transition: all 1s ease;
