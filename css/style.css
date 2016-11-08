@@ -3393,7 +3393,7 @@ body:not(.no-transition) #wrapper,
 .mbYTP_wrapper iframe{max-width:4000px !important;}
 .inline_YTPlayer{margin-bottom:20px;vertical-align:top;position:relative;left:0;overflow:hidden;border-radius:4px;-moz-box-shadow:0 0 5px rgba(0,0,0,.7);-webkit-box-shadow:0 0 5px rgba(0,0,0,.7);box-shadow:0 0 5px rgba(0,0,0,.7);background:rgba(0,0,0,.5);}
 .inline_YTPlayer img{border:none!important;-moz-transform:none!important;-webkit-transform:none!important;-o-transform:none!important;transform:none!important;margin:0!important;padding:0!important}
-#aplicativos-destaque .bg{background-image:url(images/__aplicativos/iphone-3d.png);background-position:0 0;background-repeat:no-repeat;}
+#aplicativos-destaque .bg{background-image:url(images/aplicativos/iphone-3d.png);background-position:0 0;background-repeat:no-repeat;}
 @media screen and (max-width:992px){#aplicativos-destaque .bg{background-image:none !important;}
 }
 ul.flex-direction-nav li a,
